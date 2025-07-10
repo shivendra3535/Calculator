@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://sdmntprwestus3.oaiusercontent.com/files/00000000-30d0-61fd-9d2b-160e4009a394/raw?se=2025-07-10T08%3A51%3A21Z&sp=r&sv=2024-08-04&sr=b&scid=210548bd-8c21-5a3b-be64-ad2185f597f9&skoid=04233560-0ad7-493e-8bf0-1347c317d021&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-09T20%3A28%3A30Z&ske=2025-07-10T20%3A28%3A30Z&sks=b&skv=2024-08-04&sig=Zc4lAQQdRJZ0ye8nG7xDcNy%2BziWYVnHlJYHYcKBtHAw%3D");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background: #394351;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+
+}
+form input.equal{
+    width: 145px;
+    color: #33ffd8;
+
+}
+ form input.operator{
+    color: #33ffd8;
+}
